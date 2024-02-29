@@ -1,0 +1,1396 @@
+
+.frameImage{
+    width: 480px;
+    height: 680px;
+    filter: blur(8px);
+}
+.nameTitle{
+    font-family: Sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    font-weight: bold;
+}
+.hero{
+    img{
+        position: absolute;
+        left: 140px;
+        top: 20px;
+        width: 5%;
+        height: 50px;
+    }
+}
+.classTitle{
+    position: absolute;
+    left: 110px;
+    top: 430px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.classTitleBlack{
+    position: absolute;
+    left: 110.5px;
+    top: 430px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.tile{
+    position: absolute;
+    font-size: 60px;
+    top: 440px;
+    left: 20px;
+}
+.tileEnd{
+    position: absolute;
+    font-size: 60px;
+    top: 440px;
+    right: 43.5px;
+}
+.lineBar{
+    position: absolute;
+    width: 412px;
+    font-size: 20px;
+        font-size: 40px;
+        top: 460px;
+        right: 48px;
+}
+.marker{
+    .fa-circle{
+        font-size: 38px;
+        position: absolute;
+        aspect-ratio:inherit;
+        top: 464px;
+        left: 50px;
+    }
+
+}
+.backer{
+    img{
+
+        position: absolute;
+        width: 70px;
+        height: auto;
+        top: 540px;
+        left: 20px;
+    }
+}
+.backer2{
+    img{
+
+        position: absolute;
+        width: 70px;
+        height: auto;
+        top: 540px;
+        left: 115px;
+    }
+}
+
+.playButton{
+    .fa-solid{
+        font-size: 38px;
+        position: absolute;
+        aspect-ratio:inherit;
+        top: 552px;
+        left: 42px;
+        color: white;
+    }
+}
+
+.forwardButton{
+    .fa-solid{
+        font-size: 38px;
+        position: absolute;
+        aspect-ratio:inherit;
+        top: 552px;
+        left: 130px;
+        color: white;
+    }
+}
+
+.AlbumCover{
+    img{
+        position: absolute;
+        width: 100px;
+        height: auto;
+        top: 570px;
+        left: 380px;
+    }
+}
+
+.playlist{
+    .fa-solid{
+        font-size: 38px;
+        position: absolute;
+        aspect-ratio:inherit;
+        top: 20px;
+        left: 380px;
+    }
+}
+
+.addPlaylist{
+    .fa-regular{
+        font-size: 38px;
+        position: absolute;
+        aspect-ratio:inherit;
+        top: 558px;
+        left: 220px;
+    }
+}
+
+.artBanner{
+    img{
+        position: absolute;
+        width: 260px;
+        height: auto;
+        top: 80px;
+        left: 120px;
+    }
+}
+
+.artRose{
+    img{
+        position: absolute;
+        width: 260px;
+        height: auto;
+        top: 120px;
+        left: 120px;
+        opacity: 80%;
+    }
+}
+
+.art{
+    img{
+        position: absolute;
+        width: 260px;
+        height: auto;
+        top: 180px;
+        left: 120px;
+        opacity: 80%;
+        transform: rotate(90deg);
+    }
+}
+
+.art2{
+    img{
+        position: absolute;
+        width: 260px;
+        height: auto;
+        top: 60px;
+        left: 120px;
+        opacity: 80%;
+        transform: rotate(-90deg);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .protecter{
+            position: relative;
+            left: 0px;
+            top: 0px;
+            .frameImage{
+            position: absolute;
+            top: -40px;
+            left: -90px;
+            min-width: 752px;
+            min-height: 1300px;
+            filter: blur(8px);
+        
+        }
+        .nameTitle{
+            font-family: Sans-serif;
+            position: absolute;
+            left: 20px;
+            top: 30px;
+            font-size: 14;
+            font-weight: bold;
+        }
+        .hero{
+            img{
+                position: absolute;
+                left: 140px;
+                top: 20px;
+                width: 60px;
+                // height: 50px;
+            }
+        }
+        .classTitle{
+            position: fixed;
+            left: 65px;
+            top: 446px;
+            font-size: 16px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        .classTitleBlack{
+            position: relative;
+            left: 65.5px;
+            top: 446px;
+            font-size: 16px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+        }
+        .tile{
+            position: absolute;
+            font-size: 60px;
+            top: 470px;
+            left: 20px;
+        }
+        .tileEnd{
+            position: absolute;
+            font-size: 60px;
+            top: 470px;
+            left: 350px;
+        }
+        .lineBar{
+            position: absolute;
+            width: 335px;
+            font-size: 20px;
+                font-size: 40px;
+                top: 490px;
+                left: 20px;
+        }
+        .marker{
+            .fa-circle{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 490px;
+                left: 50px;
+            }
+
+        }
+        .backer{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 584px;
+                left: 26px;
+            }
+        }
+        .backer2{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 584px;
+                left: 120px;
+            }
+        }
+
+        .playButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 46px;
+                color: white;
+            }
+        }
+
+        .forwardButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 140px;
+                color: white;
+            }
+        }
+
+        .AlbumCover{
+            img{
+                position: absolute;
+                width: 100px;
+                height: auto;
+                top: 680px;
+                left: 200px;
+            }
+        }
+
+        .playlist{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 20px;
+                left: 270px;
+            }
+        }
+
+        .addPlaylist{
+            .fa-regular{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 220px;
+            }
+        }
+
+        .artBanner{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 110px;
+                left: 75px;
+            }
+        }
+
+        .artRose{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 160px;
+                left: 75px;
+                opacity: 80%;
+            }
+        }
+
+        .art{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 200px;
+                left: 80px;
+                opacity: 80%;
+                transform: rotate(90deg);
+            }
+        }
+
+        .art2{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 90px;
+                left: 80px;
+                opacity: 80%;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}
+@media screen and (max-width: 412px){
+    .protecter{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        .frameImage{
+            position: absolute;
+            top: -40px;
+            left: -90px;
+            min-width: 752px;
+            min-height: 1300px;
+            filter: blur(8px);
+        
+        }
+        .nameTitle{
+            font-family: Sans-serif;
+            position: absolute;
+            left: 20px;
+            top: 30px;
+            font-size: 16;
+            font-weight: bold;
+        }
+        .hero{
+            img{
+                position: absolute;
+                left: 140px;
+                top: 20px;
+                width: 60px;
+                // height: 50px;
+            }
+        }
+        .classTitle{
+            position: fixed;
+            left: 70px;
+            top: 446px;
+            font-size: 16px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        .classTitleBlack{
+            position: relative;
+            left: 70.5px;
+            top: 446px;
+            font-size: 16px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+        }
+        .tile{
+            position: absolute;
+            font-size: 60px;
+            top: 470px;
+            left: 20px;
+        }
+        .tileEnd{
+            position: absolute;
+            font-size: 60px;
+            top: 470px;
+            left: 360px;
+        }
+        .lineBar{
+            position: absolute;
+            width: 340px;
+            font-size: 20px;
+                font-size: 40px;
+                top: 490px;
+                left: 20px;
+        }
+        .marker{
+            .fa-circle{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 490px;
+                left: 50px;
+            }
+
+        }
+        .backer{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 584px;
+                left: 26px;
+            }
+        }
+        .backer2{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 584px;
+                left: 120px;
+            }
+        }
+
+        .playButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 46px;
+                color: white;
+            }
+        }
+
+        .forwardButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 140px;
+                color: white;
+            }
+        }
+
+        .AlbumCover{
+            img{
+                position: absolute;
+                width: 100px;
+                height: auto;
+                top: 680px;
+                left: 240px;
+            }
+        }
+
+        .playlist{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 20px;
+                left: 270px;
+            }
+        }
+
+        .addPlaylist{
+            .fa-regular{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 220px;
+            }
+        }
+
+        .artBanner{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 110px;
+                left: 75px;
+            }
+        }
+
+        .artRose{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 160px;
+                left: 75px;
+                opacity: 80%;
+            }
+        }
+
+        .art{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 200px;
+                left: 80px;
+                opacity: 80%;
+                transform: rotate(90deg);
+            }
+        }
+
+        .art2{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 90px;
+                left: 80px;
+                opacity: 80%;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}
+@media screen and (max-width: 412px){
+    .protecter{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        .frameImage{
+            position: absolute;
+            top: -40px;
+            left: -90px;
+            min-width: 752px;
+            min-height: 1300px;
+            filter: blur(8px);
+        
+        }
+        .nameTitle{
+            font-family: Sans-serif;
+            position: absolute;
+            left: 20px;
+            top: 30px;
+            font-size: 16;
+            font-weight: bold;
+        }
+        .hero{
+            img{
+                position: absolute;
+                left: 140px;
+                top: 20px;
+                width: 60px;
+                // height: 50px;
+            }
+        }
+        .classTitle{
+            position: fixed;
+            left: 70px;
+            top: 446px;
+            font-size: 16px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        .classTitleBlack{
+            position: relative;
+            left: 70.5px;
+            top: 446px;
+            font-size: 16px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+        }
+        .tile{
+            position: absolute;
+            font-size: 60px;
+            top: 490px;
+            left: 20px;
+        }
+        .tileEnd{
+            position: absolute;
+            font-size: 60px;
+            top: 490px;
+            left: 360px;
+        }
+        .lineBar{
+            position: absolute;
+            width: 340px;
+                font-size: 40px;
+                top: 510px;
+                left: 20px;
+        }
+        .marker{
+            .fa-circle{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 490px;
+                left: 50px;
+            }
+
+        }
+        .backer{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 584px;
+                left: 26px;
+            }
+        }
+        .backer2{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 584px;
+                left: 120px;
+            }
+        }
+
+        .playButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 46px;
+                color: white;
+            }
+        }
+
+        .forwardButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 140px;
+                color: white;
+            }
+        }
+
+        .AlbumCover{
+            img{
+                position: absolute;
+                width: 100px;
+                height: auto;
+                top: 680px;
+                left: 240px;
+            }
+        }
+
+        .playlist{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 20px;
+                left: 270px;
+            }
+        }
+
+        .addPlaylist{
+            .fa-regular{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 598px;
+                left: 220px;
+            }
+        }
+
+        .artBanner{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 110px;
+                left: 75px;
+            }
+        }
+
+        .artRose{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 160px;
+                left: 75px;
+                opacity: 80%;
+            }
+        }
+
+        .art{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 200px;
+                left: 80px;
+                opacity: 80%;
+                transform: rotate(90deg);
+            }
+        }
+
+        .art2{
+            img{
+                position: absolute;
+                width: 240px;
+                height: auto;
+                top: 90px;
+                left: 80px;
+                opacity: 80%;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .protecter{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        .frameImage{
+            position: absolute;
+            top: -40px;
+            left: -90px;
+            min-width: 1022px;
+            min-height: 1500px;
+            filter: blur(8px);
+        
+        }
+        .nameTitle{
+            font-family: Sans-serif;
+            position: absolute;
+            left: 20px;
+            top: 30px;
+            font-weight: bold;
+        }
+        .hero{
+            img{
+                position: absolute;
+                left: 120px;
+                top: 20px;
+                width: 60px;
+                // height: 50px;
+            }
+        }
+        .classTitle{
+            position: fixed;
+            left: 170px;
+            top: 570px;
+            font-size: 26px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        .classTitleBlack{
+            position: relative;
+            left: 170.5px;
+            top: 570px;
+            font-size: 26px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+        }
+        .tile{
+            position: absolute;
+            font-size: 60px;
+            top: 600px;
+            left: 20px;
+        }
+        .tileEnd{
+            position: absolute;
+            font-size: 60px;
+            top: 600px;
+            left: 732px;
+        }
+        .lineBar{
+            position: absolute;
+            width: 700px;
+            font-size: 20px;
+                font-size: 40px;
+                top: 620px;
+                left: 20px;
+        }
+        .marker{
+            .fa-circle{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 624px;
+                left: 50px;
+            }
+
+        }
+        .backer{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 724px;
+                left: 26px;
+            }
+        }
+        .backer2{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 724px;
+                left: 120px;
+            }
+        }
+
+        .playButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 732px;
+                left: 44px;
+                color: white;
+            }
+        }
+
+        .forwardButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 732px;
+                left: 134px;
+                color: white;
+            }
+        }
+
+        .AlbumCover{
+            img{
+                position: absolute;
+                width: 160px;
+                height: auto;
+                top: 800px;
+                left: 580px;
+            }
+        }
+
+        .playlist{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 20px;
+                left: 650px;
+            }
+        }
+
+        .addPlaylist{
+            .fa-regular{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 738px;
+                left: 220px;
+            }
+        }
+
+        .artBanner{
+            img{
+                position: absolute;
+                width: 340px;
+                height: auto;
+                top: 80px;
+                left: 230px;
+            }
+        }
+
+        .artRose{
+            img{
+                position: absolute;
+                width: 340px;
+                height: auto;
+                top: 130px;
+                left: 230px;
+                opacity: 80%;
+            }
+        }
+
+        .art{
+            img{
+                position: absolute;
+                width: 340px;
+                height: auto;
+                top: 220px;
+                left: 230px;
+                opacity: 80%;
+                transform: rotate(90deg);
+            }
+        }
+
+        .art2{
+            img{
+                position: absolute;
+                width: 340px;
+                height: auto;
+                top: 40px;
+                left: 230px;
+                opacity: 80%;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}
+@media screen and (max-width: 820px){
+    .protecter{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        .frameImage{
+            position: absolute;
+            top: -40px;
+            left: -90px;
+            min-width: 1022px;
+            min-height: 1500px;
+            filter: blur(8px);
+        
+        }
+        .nameTitle{
+            font-family: Sans-serif;
+            position: absolute;
+            left: 20px;
+            top: 30px;
+            font-weight: bold;
+        }
+        .hero{
+            img{
+                position: absolute;
+                left: 120px;
+                top: 20px;
+                width: 60px;
+                // height: 50px;
+            }
+        }
+        .classTitle{
+            position: fixed;
+            left: 170px;
+            top: 570px;
+            font-size: 26px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        .classTitleBlack{
+            position: relative;
+            left: 170.5px;
+            top: 570px;
+            font-size: 26px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+        }
+        .tile{
+            position: absolute;
+            font-size: 60px;
+            top: 600px;
+            left: 20px;
+        }
+        .tileEnd{
+            position: absolute;
+            font-size: 60px;
+            top: 600px;
+            left: 632px;
+        }
+        .lineBar{
+            position: absolute;
+            width: 650px;
+            font-size: 20px;
+                font-size: 40px;
+                top: 620px;
+                left: 20px;
+        }
+        .marker{
+            .fa-circle{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 624px;
+                left: 50px;
+            }
+
+        }
+        .backer{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 695px;
+                left: 26px;
+            }
+        }
+        .backer2{
+            img{
+
+                position: absolute;
+                width: 70px;
+                height: auto;
+                top: 695px;
+                left: 120px;
+            }
+        }
+
+        .playButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 695px;
+                left: 44px;
+                color: white;
+            }
+        }
+
+        .forwardButton{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 695px;
+                left: 134px;
+                color: white;
+            }
+        }
+
+        .AlbumCover{
+            img{
+                position: absolute;
+                width: 160px;
+                height: auto;
+                top: 700px;
+                left: 460px;
+            }
+        }
+
+        .playlist{
+            .fa-solid{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 20px;
+                left: 650px;
+            }
+        }
+
+        .addPlaylist{
+            .fa-regular{
+                font-size: 38px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 695px;
+                left: 220px;
+            }
+        }
+
+        .artBanner{
+            img{
+                position: absolute;
+                width: 300px;
+                height: auto;
+                top: 80px;
+                left: 210px;
+            }
+        }
+
+        .artRose{
+            img{
+                position: absolute;
+                width: 300px;
+                height: auto;
+                top: 130px;
+                left: 210px;
+                opacity: 80%;
+            }
+        }
+
+        .art{
+            img{
+                position: absolute;
+                width: 300px;
+                height: auto;
+                top: 220px;
+                left: 215px;
+                opacity: 80%;
+                transform: rotate(90deg);
+            }
+        }
+
+        .art2{
+            img{
+                position: absolute;
+                width: 340px;
+                height: auto;
+                top: 40px;
+                left: 215px;
+                opacity: 80%;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .protecter{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        .frameImage{
+            position: absolute;
+            top: -40px;
+            left: -90px;
+            min-width: 2002px;
+            min-height: 3000px;
+            filter: blur(8px);
+        
+        }
+        .nameTitle{
+            font-family: Sans-serif;
+            position: absolute;
+            left: 20px;
+            top: 30px;
+            font-weight: bold;
+        }
+        .hero{
+            img{
+                position: absolute;
+                left: 120px;
+                top: 20px;
+                width: 60px;
+                // height: 50px;
+            }
+        }
+        .classTitle{
+            position: fixed;
+            left: 230px;
+            top: 860px;
+            font-size: 30px;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        .classTitleBlack{
+            position: relative;
+            left: 230.5px;
+            top: 860px;
+            font-size: 30px;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+        }
+        .tile{
+            position: absolute;
+            font-size: 60px;
+            top: 890px;
+            left: 60px;
+        }
+        .tileEnd{
+            position: absolute;
+            font-size: 60px;
+            top: 880px;
+            left: 920px;
+        }
+        .lineBar{
+            position: absolute;
+            width: 900px;
+            font-size: 120px;
+                font-size: 40px;
+                top: 910px;
+                left: 20px;
+        }
+        .marker{
+            .fa-circle{
+                font-size: 58px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 900px;
+                left: 120px;
+            }
+
+        }
+        .backer{
+            img{
+
+                position: absolute;
+                width: 120px;
+                height: auto;
+                top: 1090px;
+                left: 80px;
+            }
+        }
+        .backer2{
+            img{
+
+                position: absolute;
+                width: 120px;
+                height: auto;
+                top: 1090px;
+                left: 290px;
+            }
+        }
+
+        .playButton{
+            .fa-solid{
+                font-size: 80px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 1110px;
+                left: 110px;
+                color: white;
+            }
+        }
+
+        .forwardButton{
+            .fa-solid{
+                font-size: 80px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 1110px;
+                left: 310px;
+                color: white;
+            }
+        }
+
+        .AlbumCover{
+            img{
+                position: absolute;
+                width: 160px;
+                height: auto;
+                top: 1100px;
+                left: 670px;
+            }
+        }
+
+        .playlist{
+            .fa-solid{
+                font-size: 90px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 20px;
+                left: 880px;
+            }
+        }
+
+        .addPlaylist{
+            .fa-regular{
+                font-size: 90px;
+                position: absolute;
+                aspect-ratio:inherit;
+                top: 1110px;
+                left: 460px;
+            }
+        }
+
+        .artBanner{
+            img{
+                position: absolute;
+                width: 540px;
+                height: auto;
+                top: 80px;
+                left: 230px;
+            }
+        }
+
+        .artRose{
+            img{
+                position: absolute;
+                width: 540px;
+                height: auto;
+                top: 130px;
+                left: 230px;
+                opacity: 80%;
+            }
+        }
+
+        .art{
+            img{
+                position: absolute;
+                width: 540px;
+                height: auto;
+                top: 270px;
+                left: 230px;
+                opacity: 80%;
+                transform: rotate(90deg);
+            }
+        }
+
+        .art2{
+            img{
+                position: absolute;
+                width: 530px;
+                height: auto;
+                top: 40px;
+                left: 235px;
+                opacity: 80%;
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}
+
+
+// .Banner{
+//     .FrontFace{
+
+//     }
+
+//     .backup{
+        
+//     }
+// }
+
+// .Player{
+//     .navLeft{
+
+//     }
+
+//     .iconButton{
+
+//     }
+
+//     .liner|Bar{
+
+//     }
+
+//     .navRight{
+
+//     }
+
+// }
+
+// .Tools{
+//     .list{
+
+//     }
+// }
+
+// .MediaAlbumLabel{
+
+// }
